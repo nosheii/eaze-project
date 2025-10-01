@@ -7,7 +7,7 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def hello_world(request):
-    return Response({"message": "Hello, world!!!!"})
+    return Response({"message": "Hello, world:DDD"})
 
 #http://localhost:8000/api/oppdaterNavn/
 @api_view(['POST'])
